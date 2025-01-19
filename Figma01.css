@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Noto+Sans+Symbols:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2D4480;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    text-transform: uppercase;
+    width: 18rem;
+    height: 28.125rem;
+    border-radius: 1.6875rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+h1{
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+ul{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+ul.oui li, ul.non li {
+    display: flex;
+    align-items: left;
+    gap: 0;
+}
+
+ul.oui li{
+    position:relative;
+    right: 16px;
+    top: 7.8px;
+}
+
+ul.non li{
+    position:relative;
+    right: 10px;
+}
+
+ul.oui li::before{
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.65rem;
+    top: 8px;
+}
+
+ul.non li::before{
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.25rem;
+    top: 8px;
+}
+
+ul.oui li::before{
+    background-image: url('/img/CycleGREEN.webp');
+    position: relative;
+    right: 13px;
+}
+
+ul.non li::before{
+    background-image: url('/img/XRED-removebg-preview.png');
+    position: relative;
+    object-fit:contain;
+    right: 15px;
+}
+
+li {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.05rem;
+    padding-left: 0;
+
+}
+
+hr {
+    border: none;
+    height: .0625rem;
+    background-color: #000;
+    margin: .625rem 0;
+    width: 60%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #292929;
+    margin-bottom: 10px;
+    position:relative;
+    bottom: 28px;
+    letter-spacing: 0.13em;
+}
+
+h3 {
+    font-family: "Allan", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #2D4480;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 50px;
+    left: 35px;
+}
+
+.yellow {
+    position:absolute;
+    background-color: #FFBC0F;
+    color: #253868;
+    width: 11.3125rem;
+    height: 4.25rem;
+    border-radius: 1.6875rem;
+    text-align: center;
+    padding: 17px;
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    top: 417px;
+}
+
+.yellow:hover{
+    background-color: #e6a50d;
+} 
