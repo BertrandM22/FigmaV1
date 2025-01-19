@@ -12,7 +12,9 @@ Ceci est le premier projet que j'ai réalisé en reproduisant un design Figma en
 
 ## 💻 Technologies utilisées
 **HTML5**: Pour structurer le contenu de la page.
+
 **CSS3**: Pour le style et l'apparence visuelle.
+
 ## Caractéristiques principales 🚀
 🎯 Design pixel-perfect : Reproduit exactement selon la maquette Figma.
 
@@ -23,6 +25,7 @@ Ceci est le premier projet que j'ai réalisé en reproduisant un design Figma en
 ## 🛠️ Installation & Utilisation
 
 1. Cloner le dépôt:
+
 git clone https://github.com/BertrandM22/FigmaV1/tree/master
 cd figmaProjectV2
 
