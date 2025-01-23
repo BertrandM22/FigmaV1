@@ -1,4 +1,4 @@
-                                                                               ✨FIGMA Exercise✨
+                                                       ✨FIGMA Exercise✨
 
 
 ![preview](assets/preview.png)
