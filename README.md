@@ -27,6 +27,6 @@ Ceci est le premier projet que j'ai réalisé en reproduisant un design Figma en
 1. Cloner le dépôt:
 
 git clone https://github.com/BertrandM22/FigmaV1/tree/master
-cd figmaProjectV2
+
 
 2. Ouvre index.html dans ton navigateur favori pour voir le projet.
